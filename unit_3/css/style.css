@@ -1,0 +1,59 @@
+body {
+	background-color: #18858A;
+}
+
+/*h1 {
+	text-align: center;
+}*/
+
+#slogan {
+	font-style: italic;
+}
+
+.main_box {
+	font-family: 'Avenir', Helvetica, sans-serif;
+	text-align: center;
+	color: #18858A;
+	background-color: #FFF;
+	width: 40%;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 25px;
+	position: relative;
+	top: 10px;
+}
+
+.main_box_wrapper {
+	width: 90%;
+	height: 300px;
+	background-image: url("../images/groupbeachwalk.jpg");
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.email_signup {
+	font-family: 'Avenir', Helvetica, sans-serif;
+	color: #FFF;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#email, #submit_email {
+	margin: 0 auto;
+}
+
+.homepage_info {
+	font-family: 'Avenir', Helvetica, sans-serif;
+	color: #FFF;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer {
+	font-family: 'Avenir', Helvetica, sans-serif;
+	color: #FFF;
+}
+
+td {
+	border-right: 1px;
+}
