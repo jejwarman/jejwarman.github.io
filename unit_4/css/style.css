@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+body {
+	background-color: #18858A;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+p {
+	line-height: 1.5;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+.main_box {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	text-align: center;
+	color: #18858A;
+	background-color: #FFF;
+	width: 40%;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 25px;
+	position: relative;
+	top: 10px;
+}
+
+.main_box_wrapper {
+	width: 90%;
+	height: 300px;
+	background-image: url("../images/groupbeachwalk.jpg");
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.email_signup {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #FFF;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#email, #submit_email {
+	margin: 0 auto;
+}
+
+.homepage_info {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #FFF;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #FFF;
+}
+
+td {
+	border-right: 1px;
+}
