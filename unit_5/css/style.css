@@ -54,6 +54,14 @@ div, section {
     padding: 20px;
 }
 
+.logo {
+	max-width: 10%;
+}
+
+.picture_left, .picture_right {
+	max-width: 40%;
+}
+
 .wrapper {
 	margin: 0 auto;
 }
