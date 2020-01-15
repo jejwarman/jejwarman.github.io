@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+body {
+	background-color: #18858A;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+p {
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div, section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+#main_box {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	text-align: center;
+	color: #18858A;
+	background-color: #FFF;
+	width: 40%;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 25px;
+	position: relative;
+	top: 10px;
+}
+
+#main_box_container {
+	width: 90%;
+	height: 300px;
+	background-image: url("../images/people-silhouette-during-sunset.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+}
+
+.email_signup {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #FFF;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#email, #submit_email {
+	margin: 0 auto;
+}
+
+.description_left,.description_right {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #FFF;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #FFF;
+}
+
+td {
+	border-right: 1px;
+}
