@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+body {
+	background-color: #478FB3;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+figure {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div, section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}*/
+
+header {
+	background-color: #FF99A3;
+	margin-bottom: 25px;
+
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+#logo {
+	max-width: 10%;
+	float: left;
+}
+
+#logo {
+	padding: 20px;
+	background-color: #FF99A3;
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+}
+
+#top_nav {
+	background-color: #FF99A3;
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #478FB3;
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+
+#top_nav a {
+	font-size: 18px;
+}
+
+a {
+	color: #478FB3;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: 20px;
+}
+
+a:hover {
+	background-color: #80D4FF;
+	color: #B3AF50;
+}
+
+#slogan {
+	font-style: italic;
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	font-size: 0.8em;
+}
+
+#main_box {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: #478FB3;
+	background-color: #FF99A3;
+	width: 50%;
+	height: 40%;
+	margin: 0 auto;
+	border-radius: 25px;
+	position: relative;
+	top: 40%;
+}
+
+#main_box_container {
+	width: 90%;
+	height: 350px;
+	background-image: url("../images/people-silhouette-during-sunset.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+}
+
+.email_signup {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #FFF;
+	text-align: center;
+	margin: 25px 0 25px 0;
+}
+
+#email, #submit_email {
+	margin: 0 auto;
+}
+
+#two_column_picture_left, #two_column_picture_right {
+	background-color: #478FB3;
+	padding: 20px;
+}
+
+.picture_left {
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+
+.description_left {
+	background-color: #FF99A3;
+    padding: 20px;
+    float: left;
+    width: 30%;
+    height: 100%;
+    font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #478FB3;
+}
+
+h1, h2, h3 {
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.picture_right {
+    padding: 20px;
+    float: right;
+    width: 60%;
+}
+
+.description_right {
+	background-color: #FF99A3;
+    padding: 20px;
+    float: right;
+    width: 30%;
+    height: 100%;
+    font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #478FB3;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.footer {
+	font-family: 'Didact Gothic', Avenir, sans-serif;
+	color: #FFF;
+}
+
+td {
+	border-right: 1px;
+}
