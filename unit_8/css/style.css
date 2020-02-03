@@ -63,6 +63,16 @@ li a:hover {
 
 /*Intro text*/
 
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#magdalen_drawing img {
+	width: 100%;
+	object-fit: contain;
+}
+
 #intro {
 	text-align: center;
 	margin: 0 auto;
@@ -81,16 +91,9 @@ h3 {
     font-weight: 600;
 }
 
-p {
+p, span {
 	font-size: 20px;
 	font-weight: 300;
-}
-
-header {
-	width: 100%;
-	height: 500px;
-	background-color: grey;
-	margin: 0 auto;
 }
 
 main {
@@ -99,50 +102,54 @@ main {
 	margin: 0 auto;
 }
 
-.wedding_info_pictures_left {
-    height: 600px;
-    width: 100%;
+.wedding_info {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.wedding_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.pictures_right {
+	 background-color: #62B6CC;
+	 float: right;
+}
+
+.pictures_left {
     background-color: #FF94B8;
+    float: left;
 }
 
-.wedding_info_pictures_right {
-    height: 600px;
-    width: 100%;
-    background-color: #62B6CC;
-}
-
-.wedding_info_pictures_left article {
+.wedding_info article {
 	width: 40%;
-	float: left;
-	height: 600px;
-	box-sizing: border-box;
 	padding: 50px;
 	line-height: 1.8;
 	color: rgba(0,0,0,0.75);
+	box-sizing: border-box;
+	border: black 1px solid;
 }
 
-.wedding_info_pictures_left video {
+.wedding_info video {
 	width: 60%;
-	float: left;
-	height: 600px;
-	box-sizing: border-box;
 	padding: 50px;
+	box-sizing: border-box;
+	border: black 1px solid;
 }
 
-.wedding_info_pictures_right article {
-	width: 40%;
-	float: right;
-	height: 600px;
-	box-sizing: border-box;
-	padding: 50px;
-	line-height: 1.8;
-	color: rgba(0,0,0,0.75);
+form {
+    text-align: center;
+    background-color: white;
+    border: 3px black solid;
 }
 
-.wedding_info_pictures_right video {
-	width: 60%;
-	float: right;
-	height: 600px;
-	box-sizing: border-box;
-	padding: 50px;
+#places_to_stay img {
+	display: inline-block;
+	padding: 10px;
+}
+
+footer {
+	font-family: 'Amatic SC', cursive;
 }

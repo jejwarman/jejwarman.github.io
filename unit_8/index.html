@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>James and Alice get married</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#ceremony">Ceremony</a></li>
+				<li><a href="#dinner_and_dancing">Dinner & Dancing</a></li>
+				<li><a href="#places_to_stay">Places to Stay</a></li>
+				<li><a href="#rsvp">RSVP</a></li>
+				<li><a href="#wedding_list">Wedding List</a></li>
+			</ul>
+		</nav>
+		<figure id="magdalen_drawing">
+			<img src="images/magdalen.jpg" alt="Drawing of Magdalen College">
+		</figure>
+
+	</header>
+
+	<main>
+
+		<section id="intro">
+			<h1>1st August 2020</h1>
+		</section>
+
+		<section class="wedding_info pictures_left">
+			<video></video>
+			<article id="ceremony">
+				<h3>Ceremony</h3>
+				<p>The ceremony will be at the Ashmolean Museum in Oxford at 2pm on Saturday 1st August 2020.</p>
+			</article>
+		</section>
+
+		<section class="wedding_info pictures_right">
+			<video></video>
+			<article id="dinner_and_dancing">
+				<h3>Dinner & Dancing</h3>
+				<p>After the ceremony there will be a drinks reception at Magdalen College from 3pm, followed by dinner.</p>
+				<br>
+			</article>
+		</section>
+
+		<section class="wedding_info pictures_left">
+			<video></video>
+			<article id="places_to_stay">
+				<h3>Places to Stay</h3>
+				<p>There are lots of options in Oxford. But we would recommend the following:</p>
+				<a href="https://www.airbnb.com" target="_blank"><img src="images/airbnb.jpg" alt="Airbnb"></a>
+				<a href="https://www.universityrooms.com/en-GB/" target="_blank"><img src="images/university_rooms.jpg" alt="University Rooms"></a>
+			</article>
+		</section>
+
+		<section class="wedding_info pictures_right">
+			<video></video>
+			<article id="rsvp">
+				<h3>RSVP</h3>
+				<p>Please RSVP individually for each invited guest.</p>
+				<br>
+				<form action="submission.html" method="POST">
+					<section class="attendance">
+						<span>Are you able to attend?</span>
+          				<br>
+				        <input type="radio" name="attend" id="yes" value="yes">
+				        <label for="yes">Yes</label>
+				        <input type="radio" name="attend" id="no" value="no">
+				        <label for="no">No</label>
+					</section>
+					<section class="email_entry">
+						FirstName:
+            			<input type="text" name="fname" id="fname"/><br>
+            			LastName:
+            			<input type="text" name="lname" id="lastname"/><br>
+            			Email:
+            			<input type="email" name="emailaddress" id="emailaddress"/><br>
+					</section>
+					<section class="dietary_questions">
+						<input type="checkbox" name="diet" id="vegetarian" value="vegetarian">
+						<label for="vegetarian">Vegetarian</label>
+						<input type="checkbox" name="diet" id="vegan" value="vegan">
+	          			<label for="vegan">Vegan</label>
+	          			<input type="checkbox" name="diet" id="no_gluten" value="no_gluten">
+	          			<label for="no_gluten">No Gluten</label>
+	          			<input type="checkbox" name="diet" id="no_fish" value="no_fish">
+	          			<label for="no_fish">No Fish</label>
+	          		</section>
+	          		<section class="allergies">
+          				<label for="allergy">Any other allergies?</label>
+          				<br>
+          				<textarea id="allergy" name="allergy" rows="3" cols="40"></textarea>
+        			</section>
+        			<section class="submission">
+          				<input type="submit" value="Submit">
+        			</section>
+				</form>
+			</article>
+		</section>
+
+		<section class="wedding_info pictures_left">
+			<video></video>
+			<article id="wedding_list">
+				<h3>Wedding List</h3>
+				<p>If you would like to buy a wedding gift, <a href="#">click here</a> to see our wedding list.</p>
+			</article>
+		</section>
+
+	</main>
+
+	<footer>
+		<p>&copy James Warman 2020</p>
+	</footer>
+
+</div>
+</body>
+
+</html>
