@@ -11,6 +11,10 @@
 
 /*Navigation bar code below*/
 
+body {
+	font-size: 20px;
+}
+
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
@@ -30,7 +34,7 @@ nav li a {
 	text-decoration: none;
 	text-transform: lowercase;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
+	font-size: 0.9em;
 
 }
 
@@ -82,17 +86,17 @@ header {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 3.2em;
     font-weight: 800;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 2em;
     font-weight: 600;
 }
 
 p, span {
-	font-size: 20px;
+	font-size: 1em;
 	font-weight: 300;
 }
 
@@ -125,31 +129,163 @@ main {
 
 .wedding_info article {
 	width: 40%;
-	padding: 50px;
+	padding: 3%;
 	line-height: 1.8;
 	color: rgba(0,0,0,0.75);
 	box-sizing: border-box;
-	border: black 1px solid;
 }
 
 .wedding_info video {
 	width: 60%;
-	padding: 50px;
+	padding: 1%;
 	box-sizing: border-box;
-	border: black 1px solid;
 }
 
+/*Form CSS Below*/
+
 form {
-    text-align: center;
+	text-align: center;
     background-color: white;
     border: 3px black solid;
+    font-size: 0.9em;
 }
+
+.form_section {
+    padding: 3% 0 0 5%;
+    text-align: left;
+}
+
+.diet_question {
+    width: 45%;
+    float: left;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.dietary_questions:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#allergy {
+    width: 90%;
+}
+
+/*Form CSS Above*/
 
 #places_to_stay img {
 	display: inline-block;
 	padding: 10px;
 }
 
+main:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
 footer {
 	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	padding: 1%;
+}
+
+@media only screen and (max-width: 1051px) {
+	.wedding_info article {
+		width: 90%;
+		margin: 1% 5%;
+	}
+
+	.wedding_info video {
+		width: 90%;
+		margin: 1% 5%;
+	}
+}
+
+@media only screen and (min-width: 814px) {
+	#magdalen_drawing img {
+	    height: 600px;
+	    object-fit: cover;
+	}
+}
+
+@media only screen and (max-width: 917px) {
+	nav {
+		font-size: 0.8em;
+	}
+
+	h1 {
+	    font-size: 2.8em;
+	    font-weight: 800;
+	}
+
+	h3 {
+	    font-size: 1.8em;
+	    font-weight: 600;
+	}
+
+	p, form {
+		font-size: 0.9em;
+		font-weight: 300;
+	}
+}
+
+@media only screen and (max-width: 814px) {
+	nav {
+		font-size: 0.7em;
+	}
+
+	h1 {
+	    font-size: 2.4em;
+	    font-weight: 800;
+	}
+
+	h3 {
+	    font-size: 1.5em;
+	    font-weight: 600;
+	}
+
+	p, form {
+		font-size: 0.8em;
+		font-weight: 300;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	nav {
+		font-size: 0.7em;
+		width: 33%;
+		float: left;
+	}
+
+	nav li {
+		float: none;
+	}
+
+nav li a {
+		display: flex;
+	}
+
+	h1 {
+	    font-size: 2.4em;
+	    font-weight: 800;
+	}
+
+	h3 {
+	    font-size: 1.5em;
+	    font-weight: 600;
+	}
+
+	p, form {
+		font-size: 0.8em;
+		font-weight: 300;
+	}
+}
+
+@media only screen and (max-width: 325px) {
+	.diet_question {
+    width: 90%;
+	}
 }

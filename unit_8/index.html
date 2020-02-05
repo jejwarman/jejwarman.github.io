@@ -6,6 +6,7 @@
 	<title>James and Alice get married</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -34,7 +35,9 @@
 		</section>
 
 		<section class="wedding_info pictures_left">
-			<video></video>
+			<video autoplay loop muted>
+				<source src="videos/Wedding_photos.mp4" type="video/mp4">
+			</video>
 			<article id="ceremony">
 				<h3>Ceremony</h3>
 				<p>The ceremony will be at the Ashmolean Museum in Oxford at 2pm on Saturday 1st August 2020.</p>
@@ -42,7 +45,9 @@
 		</section>
 
 		<section class="wedding_info pictures_right">
-			<video></video>
+			<video autoplay loop muted>
+				<source src="videos/Wedding_photos.mp4" type="video/mp4">
+			</video>
 			<article id="dinner_and_dancing">
 				<h3>Dinner & Dancing</h3>
 				<p>After the ceremony there will be a drinks reception at Magdalen College from 3pm, followed by dinner.</p>
@@ -51,7 +56,9 @@
 		</section>
 
 		<section class="wedding_info pictures_left">
-			<video></video>
+			<video autoplay loop muted>
+				<source src="videos/Wedding_photos.mp4" type="video/mp4">
+			</video>
 			<article id="places_to_stay">
 				<h3>Places to Stay</h3>
 				<p>There are lots of options in Oxford. But we would recommend the following:</p>
@@ -61,13 +68,15 @@
 		</section>
 
 		<section class="wedding_info pictures_right">
-			<video></video>
+			<video autoplay loop muted>
+				<source src="videos/Wedding_photos.mp4" type="video/mp4">
+			</video>
 			<article id="rsvp">
 				<h3>RSVP</h3>
 				<p>Please RSVP individually for each invited guest.</p>
 				<br>
 				<form action="submission.html" method="POST">
-					<section class="attendance">
+					<section class="attendance form_section">
 						<span>Are you able to attend?</span>
           				<br>
 				        <input type="radio" name="attend" id="yes" value="yes">
@@ -75,7 +84,7 @@
 				        <input type="radio" name="attend" id="no" value="no">
 				        <label for="no">No</label>
 					</section>
-					<section class="email_entry">
+					<section class="email_entry form_section">
 						FirstName:
             			<input type="text" name="fname" id="fname"/><br>
             			LastName:
@@ -83,17 +92,31 @@
             			Email:
             			<input type="email" name="emailaddress" id="emailaddress"/><br>
 					</section>
-					<section class="dietary_questions">
-						<input type="checkbox" name="diet" id="vegetarian" value="vegetarian">
-						<label for="vegetarian">Vegetarian</label>
-						<input type="checkbox" name="diet" id="vegan" value="vegan">
-	          			<label for="vegan">Vegan</label>
-	          			<input type="checkbox" name="diet" id="no_gluten" value="no_gluten">
-	          			<label for="no_gluten">No Gluten</label>
-	          			<input type="checkbox" name="diet" id="no_fish" value="no_fish">
-	          			<label for="no_fish">No Fish</label>
+					<section class="dietary_questions form_section">
+						<span>Do you have any dietary requirements?</span>
+						<br>
+						<div class="diet_question">
+							<input type="checkbox" name="diet" id="vegetarian" value="vegetarian">
+							<label for="vegetarian">Vegetarian</label>
+						</div>
+						<div class="diet_question">
+							<input type="checkbox" name="diet" id="vegan" value="vegan">
+		          			<label for="vegan">Vegan</label>
+		          		</div>
+		          		<div class="diet_question">
+		          			<input type="checkbox" name="diet" id="no_dairy" value="no_dairy">
+		          			<label for="no_dairy">No Dairy</label>
+		          		</div>
+		          		<div class="diet_question">
+		          			<input type="checkbox" name="diet" id="no_gluten" value="no_gluten">
+		          			<label for="no_gluten">No Gluten</label>
+		          		</div>
+		          		<div class="diet_question">
+		          			<input type="checkbox" name="diet" id="no_fish" value="no_fish">
+		          			<label for="no_fish">No Fish</label>
+		          		</div>
 	          		</section>
-	          		<section class="allergies">
+	          		<section class="allergies form_section">
           				<label for="allergy">Any other allergies?</label>
           				<br>
           				<textarea id="allergy" name="allergy" rows="3" cols="40"></textarea>
@@ -106,7 +129,9 @@
 		</section>
 
 		<section class="wedding_info pictures_left">
-			<video></video>
+			<video autoplay loop muted>
+				<source src="videos/Wedding_photos.mp4" type="video/mp4">
+			</video>
 			<article id="wedding_list">
 				<h3>Wedding List</h3>
 				<p>If you would like to buy a wedding gift, <a href="#">click here</a> to see our wedding list.</p>
